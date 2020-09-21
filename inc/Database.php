@@ -10,7 +10,7 @@ class database{
         $this->host='localhost';
         $this->user='root';
         $this->password='';
-        $this->baseName='newsportal';
+        $this->baseName='newsPortal';
         $this->connect();
     }
     function __destruct(){
@@ -38,14 +38,14 @@ function getOne($query){
     $stmt->execute();
     $stmt->setFetchMode(PDO ::FETCH_ASSOC);
     $response= $stmt->fetch();
-    return response;
+    return $response;
 }
 function getAll($query){
     $stmt=$this->conn->prepare($query);
     $stmt->execute();
     $stmt->setFetchMode(PDO ::FETCH_ASSOC);
     $response= $stmt->fetchALL();
-    return response;
+    return $response;
 }
 function executeRun($query){
     $response =$this->conn->exec($query);
