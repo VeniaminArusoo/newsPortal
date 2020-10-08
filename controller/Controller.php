@@ -34,23 +34,23 @@ class Controller {
     }
 
     public static function InsertComment($c, $id) {
-        Comments::InsertComment($c, $id);
-        self::NewsByID($id);
+    Comments::InsertComment($c, $id);
+    //self::NewsByID($id);
+    header('Location:news?id='.$id.'#ctable');
     }
-
-    public static function Comments($newsid) {
+    //список комментариев
+    public static function Comments ($newsid)   {
         $arr = Comments::getCommentByNewsID($newsid);
         ViewComments::CommentsByNews($arr);
     }
-
-    public static function CommentsCount($newsid) {
+    //кол-во комментариев к новости
+    public static function CommentsCount($newsid)   {
         $arr = Comments::getCommentsCountByNewsID($newsid);
         ViewComments::CommentsCount($arr);
     }
-
-    public static function CommentsCountWithAncor($newsid) {
+    //ссылка - переход к списку комментариев
+    public static function CommentsCountWithAncor($newsid)   {
         $arr = Comments::getCommentsCountByNewsID($newsid);
         ViewComments::CommentsCountWithAncor($arr);
     }
-
-}
+}//end class

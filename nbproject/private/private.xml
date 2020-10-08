@@ -3,23 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/newsPortal/view/layout.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/controller/Controller.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/route/routing.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/images/Без%20названия.jpg</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/index.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/view/News.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/view/readnews.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/style.css</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/inc/Database.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/view/start.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/view/error404.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/view/allnews.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/model/News.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/view/category.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/view/ViewComments.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/model/Category.php</file>
-            <file>file:/C:/xampp/htdocs/newsPortal/model/Comments.php</file>
+            <file>file:/D:/xampp/htdocs/NewsPortal/controller/Controller.php</file>
         </group>
     </open-files>
 </project-private>
